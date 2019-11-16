@@ -16,11 +16,11 @@ This repository contains a Windows Terminal JSON profile and some images to demo
 ## Setup
 
 * Download the "profiles.json" file from this repository (or click Raw, select-all, and copy to clipboard)
-* Launch Windows Terminal
-* Click the down-arrow menu button (on the tabs menu bar) and click Settings
+* **Launch** Windows Terminal
+* Click the down-arrow menu button (on the tabs menu bar) and click **Settings**
 * If prompted to select an editor, choose whatever you prefer (I use Visual Studio Code)
-* Save a copy of your existing "profiles.json" in case you want to revert back to the current state
-* Replace with the contents of the profiles.json in this repository, and Save it
+* Save a **Backup** of your existing "profiles.json" in case you want to revert back to the current state
+* **Replace** with the contents of the profiles.json in this repository, and **Save** it
 
 You should see the Terminal update immediately, however, in some cases you may need to close and reopen it.
 
