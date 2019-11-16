@@ -10,7 +10,7 @@
         {
             // Make changes here to the powershell.exe profile
 			"acrylicOpacity" : 0.95,
-			"backgroundImage" : "https://raw.githubusercontent.com/Skatterbrainz/Terminal/master/powershell/ps5.1.png",
+			"backgroundImage" : "https://raw.githubusercontent.com/Skatterbrainz/Garage/master/powershell/ps5.1.png",
 			"background": "#13263a",
 			"backgroundImageOpacity" : 0.2,
 			"backgroundImageStretchMode" : "uniformToFill",
@@ -20,18 +20,17 @@
 			"fontFace" : "Fira Code",
 			"fontSize" : 12,
 			"guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-			"name": "Windows PowerShell 5.1",
+			"name": "PowerShell 5.1",
 			"commandline": "powershell.exe",
 			"hidden": false
         },
 		{
 			"acrylicOpacity" : 0.85,
 			"background" : "#012456",
-			"backgroundImage" : "https://raw.githubusercontent.com/Skatterbrainz/Terminal/master/powershell/santa-marvin.png",
+			"backgroundImage" : "https://raw.githubusercontent.com/Skatterbrainz/Garage/master/powershell/santa-marvin.png",
 			"backgroundImageOpacity" : 0.1,
 			"backgroundImageStretchMode" : "uniformToFill",
 			"closeOnExit" : true,
-			"colorScheme" : "Solarized Dark",
 			"commandline" : "powershell.exe",
 			"cursorColor" : "#00FF00",
 			"cursorHeight" : 25,
@@ -40,15 +39,17 @@
 			"fontSize" : 12,
 			"guid" : "{79285a8e-036c-446f-8a9c-78994e34bf78}",
 			"historySize" : 9001,
-			"name" : "PowerShell 5.1",
+			"name" : "MarvinShell 5.1",
+			"icon" : "https://raw.githubusercontent.com/Skatterbrainz/Garage/master/powershell/santa-marvin.png",
 			/*"padding" : "0, 0, 0, 0",*/
 			"snapOnInput" : true,
 			"startingDirectory" : "%USERPROFILE%",
-			"useAcrylic" : false
+			"useAcrylic" : false,
+			"tabTitle": "Marvin"
 		},
 		{
 			"acrylicOpacity" : 0.95,
-			"backgroundImage" : "https://raw.githubusercontent.com/Skatterbrainz/Terminal/master/powershell/ps6.png",
+			"backgroundImage" : "https://raw.githubusercontent.com/Skatterbrainz/Garage/master/powershell/ps6.png",
 			"background": "#13263a",
 			"backgroundImageOpacity" : 0.2,
 			"backgroundImageStretchMode" : "uniformToFill",
@@ -67,7 +68,7 @@
 		},
 		{
 			"acrylicOpacity" : 0.85,
-			"backgroundImage" : "https://raw.githubusercontent.com/Skatterbrainz/Terminal/master/powershell/ps7.png",
+			"backgroundImage" : "https://raw.githubusercontent.com/Skatterbrainz/Garage/master/powershell/ps7.png",
 			"background": "#13263a",
 			"backgroundImageOpacity" : 0.1,
 			"backgroundImageStretchMode" : "uniformToFill",
@@ -89,7 +90,7 @@
 		},
 		{
 			"acrylicOpacity" : 0.85,
-			"backgroundImage": "https://raw.githubusercontent.com/Skatterbrainz/Terminal/master/powershell/AzureLogo-640x185.png",
+			"backgroundImage": "https://raw.githubusercontent.com/Skatterbrainz/Garage/master/powershell/1280px-Microsoft_Azure_Logo.svg.png",
 			"background": "#13263a",
 			"backgroundImageOpacity": 0.1,
 			"backgroundImageStretchMode": "uniformToFill",
