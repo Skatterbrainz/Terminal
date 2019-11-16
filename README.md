@@ -4,7 +4,7 @@ Windows Terminal Toying Around
 
 ## What is this mess?
 
-This repository contains a Windows Terminal JSON profile and some images to demonstrate some of the interesting ways you can customize the Windows Terminal application. **This only works for Windows 10 as far as I know**
+This repository contains a Windows Terminal JSON profile and some images to demonstrate some of the interesting ways you can customize the Windows Terminal application.
 
 ## Prerequisites
 
