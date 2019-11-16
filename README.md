@@ -28,6 +28,6 @@ You should see the Terminal update immediately, however, in some cases you may n
 
 * Make a GitHub repository
 * Copy your image files into the repo
-* Copy the URL for use in your profiles.json 
+* Copy the URL for each image file to use in your profiles.json 
 
 Cheers!
