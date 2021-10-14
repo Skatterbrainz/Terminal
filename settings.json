@@ -2,7 +2,7 @@
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": [],
     "copyFormatting": "none",
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "profiles": 
     {
         "defaults": {},
@@ -18,8 +18,11 @@
                 "commandline": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "underscore",
-                "fontFace": "Consolas",
-                "fontSize": 12,
+                "font": 
+                {
+                    "face": "Consolas",
+                    "size": 12
+                },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
@@ -28,8 +31,8 @@
             },
             {
                 "acrylicOpacity": 0.69999999999999996,
-                "backgroundImage": "https://raw.githubusercontent.com/Skatterbrainz/Terminal/master/ps7x.png",
-                "backgroundImageOpacity": 0.39000000000000001,
+                "backgroundImage": "https://raw.githubusercontent.com/Skatterbrainz/Terminal/master/w11_1920x1200.jpg",
+                "backgroundImageOpacity": 0.10000000000000001,
                 "backgroundImageStretchMode": "uniformToFill",
                 "closeOnExit": "graceful",
                 "colorScheme": "Campbell Powershell",
@@ -44,19 +47,23 @@
                 "useAcrylic": false
             },
             {
-                "acrylicOpacity": 0.69999999999999996,
+                "acrylicOpacity": 0.35999999999999999,
                 "background": "#13263A",
                 "backgroundImage": "https://raw.githubusercontent.com/Skatterbrainz/Garage/master/powershell/ps2.png",
-                "backgroundImageOpacity": 0.10000000000000001,
+                "backgroundImageOpacity": 0.75,
                 "backgroundImageStretchMode": "uniformToFill",
                 "closeOnExit": "graceful",
                 "commandline": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -Version 2",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "underscore",
-                "fontFace": "Consolas",
-                "fontSize": 12,
+                "font": 
+                {
+                    "face": "Consolas",
+                    "size": 12
+                },
                 "hidden": false,
                 "name": "PowerShell 2.0",
+                "padding": "8",
                 "tabTitle": "PowerShell 2",
                 "useAcrylic": true
             },
@@ -66,8 +73,11 @@
                 "commandline": "cmd.exe",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "underscore",
-                "fontFace": "Consolas",
-                "fontSize": 12,
+                "font": 
+                {
+                    "face": "Consolas",
+                    "size": 12
+                },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command",
@@ -83,8 +93,11 @@
                 "closeOnExit": "graceful",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "underscore",
-                "fontFace": "Consolas",
-                "fontSize": 12,
+                "font": 
+                {
+                    "face": "Consolas",
+                    "size": 12
+                },
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
@@ -105,8 +118,11 @@
                 "cursorColor": "#00FF00",
                 "cursorHeight": 25,
                 "cursorShape": "vintage",
-                "fontFace": "Consolas",
-                "fontSize": 12,
+                "font": 
+                {
+                    "face": "Consolas",
+                    "size": 12
+                },
                 "guid": "{79285a8e-036c-446f-8a9c-78994e34bf78}",
                 "historySize": 9001,
                 "icon": "https://raw.githubusercontent.com/Skatterbrainz/Garage/master/powershell/santa-marvin.png",
@@ -119,9 +135,9 @@
             {
                 "backgroundImage": "https://raw.githubusercontent.com/Skatterbrainz/Terminal/master/psremote.png",
                 "backgroundImageOpacity": 0.089999999999999997,
-                "commandline": "powershell.exe -noprofile -noexit -Command Enter-PSSession -ComputerName 192.168.0.50 -Credential server123\\administrator",
-                "name": "Hyper-V Remote PS",
-                "tabTitle": "Hyper-V Remote PS"
+                "commandline": "powershell.exe -noprofile -noexit -Command Enter-PSSession -ComputerName 192.168.0.91 -Credential vmhost1\\administrator",
+                "name": "VMHost1 Remote PS",
+                "tabTitle": "VMHost1 Remote PS"
             }
         ]
     },
