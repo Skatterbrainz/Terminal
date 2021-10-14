@@ -16,7 +16,7 @@ interesting ways you can customize the Windows Terminal application.
 
 ## Setup
 
-* Download the "profiles.json" file from this repository (or click Raw, select-all, and copy to clipboard)
+* Download the "settings.json" file from this repository (or click Raw, select-all, and copy to clipboard)
 * **Launch** Windows Terminal
 * Click the down-arrow menu button (on the tabs menu bar) and click **Settings**
 * If prompted to select an editor, choose whatever you prefer (I use Visual Studio Code)
